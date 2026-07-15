@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    /* Target & Runtime Environment */
+    "target": "ESNext",                          /* Latest ECMAScript features */
+    "module": "NodeNext",                        /* Best choice for modern Node.js module resolution */
+    "moduleResolution": "NodeNext",              /* Resolves modules using Node.js logic */
+    "lib": ["ESNext"],                           /* API declarations available in the global scope */
+
+    /* Output Settings */
+    "outDir": "./dist",                          /* Redirect output structure to this directory */
+    "rootDir": "./src",                          /* Specify the root folder of input files */
+    "sourceMap": true,                           /* Create source map files for debugging */
+    "removeComments": true,                      /* Strip comments from the compiled output */
+
+    /* Strictness & Safety */
+    "strict": true,                              /* Enable all strict type-checking options */
+    "noImplicitAny": true,                       /* Error on expressions with an implied 'any' type */
+    "strictNullChecks": true,                    /* Enable strict null checks */
+    "noUnusedLocals": true,                      /* Report errors on unused local variables */
+    "noUnusedParameters": true,                  /* Report errors on unused function parameters */
+
+    /* Interoperability & Optimization */
+    "esModuleInterop": true,                     /* Emit additional JS to support importing CommonJS */
+    "forceConsistentCasingInFileNames": true, 
+    "types": ["node"],   /* Ensure correct casing in import paths */
+    "skipLibCheck": true,                        /* Skip type-checking of declaration files (.d.ts) */
+    "resolveJsonModule": true                    /* Enable importing .json files */
+  },
+  "include": ["src/**/*"],                       /* Files TypeScript should look at */
+  "exclude": ["node_modules", "dist"]            /* Files TypeScript should ignore */
+}
