@@ -11,3 +11,7 @@ CREATE TABLE basics.students (
     created_at TIMESTAMP DEFAULT NOW()
 );
 
+-- insert some data 
+INSERT INTO basics.students (name, email, age) VALUES
+('Alice Johnson', 'alice@example.com', 20),
+('Bob Smith', 'bob@example.com', 23);
